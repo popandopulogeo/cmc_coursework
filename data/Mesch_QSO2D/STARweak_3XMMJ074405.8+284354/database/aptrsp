@@ -1,0 +1,28 @@
+# Fri 21:50:25 08-Jul-2016
+begin	aperture trsp 1 536. 119.6232
+	image	trsp
+	aperture	1
+	beam	1
+	center	536. 119.6232
+	low	-535. -2.65213
+	high	488. 2.587669
+	background
+		xmin -57.62604
+		xmax 73.98914
+		function chebyshev
+		order 3
+		sample  -57.62604:-8.807381 6.318649:18.6013 39.72606:73.98914
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	6
+		2.
+		2.
+		122.
+		941.
+		0.1023481
+		0.2556639
+

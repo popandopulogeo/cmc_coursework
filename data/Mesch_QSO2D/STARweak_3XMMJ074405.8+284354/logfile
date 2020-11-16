@@ -1,0 +1,102 @@
+a0032.fits: Mar  8  4:13 Zero level correction image is ../Caldata/Biassp
+a0033.fits: Mar  8  4:13 Zero level correction image is ../Caldata/Biassp
+a0034.fits: Mar  8  4:13 Zero level correction image is ../Caldata/Biassp
+a0035.fits: Mar  8  4:13 Zero level correction image is ../Caldata/Biassp
+a0036.fits: Mar  8  4:13 Zero level correction image is ../Caldata/Biassp
+a0037.fits: Mar  8  4:13 Zero level correction image is ../Caldata/Biassp
+a0038.fits: Mar  8  4:13 Zero level correction image is ../Caldata/Biassp
+a0039.fits: Mar  8  4:13 Zero level correction image is ../Caldata/Biassp
+a0040.fits: Mar  8  4:13 Zero level correction image is ../Caldata/Biassp
+a0041.fits: Mar  8  4:13 Zero level correction image is ../Caldata/Biassp
+a0042.fits: Mar  8  4:13 Zero level correction image is ../Caldata/Biassp
+a0043.fits: Mar  8  4:13 Zero level correction image is ../Caldata/Biassp
+a0044.fits: Mar  8  4:13 Zero level correction image is ../Caldata/Biassp
+a0045.fits: Mar  8  4:13 Zero level correction image is ../Caldata/Biassp
+a0046.fits: Mar  8  4:13 Zero level correction image is ../Caldata/Biassp
+a0047.fits: Mar  8  4:13 Zero level correction image is ../Caldata/Biassp
+a0048.fits: Mar  8  4:13 Zero level correction image is ../Caldata/Biassp
+
+Mar  8  4:16: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = crreject, mclip = yes, nkeep = 1
+  rdnoise = 0.0, gain = gain, snoise = 0., hsigma = 3.
+  blank = 1.
+  statsec = [*,*]
+                Images     Mode   Gain  Scale
+             a0035.fits  3089.2    2.6  0.991
+             a0036.fits   3076.    2.6  0.995
+             a0037.fits  2984.8    2.6  1.026
+             a0043.fits   3112.    2.6  0.984
+             a0044.fits  3095.6    2.6  0.989
+             a0045.fits   3013.    2.6  1.016
+             a0046.fits  3061.4    2.6  1.000
+
+  Output image = flat, ncombine = 7
+
+Mar  8  4:16: IMCOMBINE
+  combine = average, scale = exposure, zero = none, weight = none
+  reject = crreject, mclip = yes, nkeep = 0
+  rdnoise = rdnoise, gain = gain, snoise = 0., hsigma = 3.
+  blank = 0.
+                Images  Rdnoise   Gain
+             a0034.fits    4.32    11.
+             a0042.fits    4.32    11.
+
+  Output image = neon, ncombine = 2
+a0032.fits: Mar  8  4:19 Flat field image is nflat.fits with scale=1.
+a0033.fits: Mar  8  4:19 Flat field image is nflat.fits with scale=1.
+a0038.fits: Mar  8  4:19 Flat field image is nflat.fits with scale=1.
+a0039.fits: Mar  8  4:19 Flat field image is nflat.fits with scale=1.
+a0040.fits: Mar  8  4:19 Flat field image is nflat.fits with scale=1.
+a0041.fits: Mar  8  4:19 Flat field image is nflat.fits with scale=1.
+a0047.fits: Mar  8  4:19 Flat field image is nflat.fits with scale=1.
+a0048.fits: Mar  8  4:19 Flat field image is nflat.fits with scale=1.
+
+Mar  8  4:19: IMCOMBINE
+  combine = median, scale = exposure, zero = none, weight = none
+  reject = crreject, mclip = yes, nkeep = 5
+  rdnoise = rdnoise, gain = gain, snoise = 0., hsigma = 3.
+  blank = 0.
+                Images  Rdnoise   Gain
+             a0032.fits    4.32    2.6
+             a0033.fits    4.32    2.6
+             a0038.fits    4.32    2.6
+             a0039.fits    4.32    2.6
+             a0040.fits    4.32    2.6
+             a0041.fits    4.32    2.6
+             a0047.fits    4.32    2.6
+             a0048.fits    4.32    2.6
+
+  Output image = sp, ncombine = 8
+
+Mar 21 22:49: IMCOMBINE
+  combine = median, scale = exposure, zero = none, weight = none
+  reject = crreject, mclip = yes, nkeep = 5
+  rdnoise = rdnoise, gain = gain, snoise = 0., hsigma = 3.
+  blank = 0.
+                Images  Rdnoise   Gain
+             a0032.fits    4.32    2.6
+             a0033.fits    4.32    2.6
+             a0038.fits    4.32    2.6
+             a0039.fits    4.32    2.6
+             a0040.fits    4.32    2.6
+             a0041.fits    4.32    2.6
+             a0047.fits    4.32    2.6
+             a0048.fits    4.32    2.6
+
+  Output image = sp, ncombine = 8
+
+Jul  8 21:45: IMCOMBINE
+  combine = average, scale = exposure, zero = none, weight = none
+  blank = 0.
+                Images 
+         rgtra0032.fits
+         rgtra0033.fits
+         rgtra0038.fits
+         rgtra0039.fits
+         rgtra0040.fits
+         rgtra0041.fits
+         rgtra0047.fits
+         rgtra0048.fits
+
+  Output image = trsp.fits, ncombine = 8

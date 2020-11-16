@@ -1,0 +1,133 @@
+
+REIDENTIFY: NOAO/IRAF V2.16.1 george@N56VZ Tue 04:21:18 08-Mar-2016
+  Reference image = neon300_ref, New image = neon300_ref, Refit = yes
+          Image Data    Found     Fit Pix Shift  User Shift  Z Shift      RMS
+neon300_ref[*,88]      37/37   31/31     0.0125      0.0945  8.59E-6    0.473
+neon300_ref[*,48]      31/31   30/30     -0.101       -0.76  -1.2E-4    0.529
+neon300_ref[*,8]       29/30   28/28     -0.185       -1.39  -2.2E-4    0.499
+neon300_ref[*,168]     37/37   33/33    -0.0992      -0.752  -1.1E-4    0.523
+neon300_ref[*,208]     32/33   30/30     -0.234       -1.77  -2.8E-4      0.5
+neon300_ref[*,248]     30/30   27/27     -0.267       -2.02  -3.2E-4    0.378
+  Reference image = neon300_ref, New image = neon, Refit = yes
+          Image Data    Found     Fit Pix Shift  User Shift  Z Shift      RMS
+neon[*,248]            25/27   24/24    -0.0331      -0.189  -1.5E-4     0.45
+neon[*,208]            30/30   28/28     0.0351        0.32  -5.3E-5    0.625
+neon[*,168]            33/33   31/31    -0.0303      -0.156  -1.5E-4    0.687
+neon[*,8]              28/28   27/27      0.163        1.27  1.15E-4    0.704
+neon[*,48]             30/30   25/25      0.037       0.344  -6.5E-5    0.577
+neon[*,88]             30/31   23/23     0.0532       0.452  -2.7E-5     0.42
+neon[*,128]            36/37   29/29     0.0788       0.658  -2.5E-5    0.631
+
+NOAO/IRAF V2.16.1 george@N56VZ Tue 04:23:13 08-Mar-2016
+  Longslit coordinate fit name is neon.
+  Longslit database is database.
+  Features from images:
+    neon
+  Map User coordinates for axis 1 using image features:
+  Number of feature coordnates = 187
+  Mapping function = chebyshev
+    X order = 6
+    Y order = 6
+  Fitted coordinates at the corners of the images:
+    (1, 1) = 2713.362  (1024, 1) = 10402.45
+    (1, 256) = 2853.312  (1024, 256) = 10344.24
+
+NOAO/IRAF V2.16.1 george@N56VZ Tue 04:23:33 08-Mar-2016
+  Transform sp to trsp.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is spline3.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      2713., x2 =     10402., dx =      7.516, nx = 1024, xlog = no
+    y1 =         1., y2 =       256., dy =         1., ny =  256, ylog = no
+
+NOAO/IRAF V2.16.1 george@N56VZ Mon 22:50:40 21-Mar-2016
+  Transform sp to trsp.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is spline3.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      2713., x2 =     10402., dx =      7.516, nx = 1024, xlog = no
+    y1 =         1., y2 =       256., dy =         1., ny =  256, ylog = no
+
+NOAO/IRAF V2.16.1 george@hea17 Fri 21:42:06 08-Jul-2016
+  Transform a0032.fits to tra0032.fits.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is spline3.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      2713., x2 =     10402., dx =      7.516, nx = 1024, xlog = no
+    y1 =         1., y2 =       256., dy =         1., ny =  256, ylog = no
+
+NOAO/IRAF V2.16.1 george@hea17 Fri 21:42:06 08-Jul-2016
+  Transform a0033.fits to tra0033.fits.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is spline3.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      2713., x2 =     10402., dx =      7.516, nx = 1024, xlog = no
+    y1 =         1., y2 =       256., dy =         1., ny =  256, ylog = no
+
+NOAO/IRAF V2.16.1 george@hea17 Fri 21:42:07 08-Jul-2016
+  Transform a0038.fits to tra0038.fits.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is spline3.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      2713., x2 =     10402., dx =      7.516, nx = 1024, xlog = no
+    y1 =         1., y2 =       256., dy =         1., ny =  256, ylog = no
+
+NOAO/IRAF V2.16.1 george@hea17 Fri 21:42:07 08-Jul-2016
+  Transform a0039.fits to tra0039.fits.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is spline3.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      2713., x2 =     10402., dx =      7.516, nx = 1024, xlog = no
+    y1 =         1., y2 =       256., dy =         1., ny =  256, ylog = no
+
+NOAO/IRAF V2.16.1 george@hea17 Fri 21:42:07 08-Jul-2016
+  Transform a0040.fits to tra0040.fits.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is spline3.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      2713., x2 =     10402., dx =      7.516, nx = 1024, xlog = no
+    y1 =         1., y2 =       256., dy =         1., ny =  256, ylog = no
+
+NOAO/IRAF V2.16.1 george@hea17 Fri 21:42:07 08-Jul-2016
+  Transform a0041.fits to tra0041.fits.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is spline3.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      2713., x2 =     10402., dx =      7.516, nx = 1024, xlog = no
+    y1 =         1., y2 =       256., dy =         1., ny =  256, ylog = no
+
+NOAO/IRAF V2.16.1 george@hea17 Fri 21:42:07 08-Jul-2016
+  Transform a0047.fits to tra0047.fits.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is spline3.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      2713., x2 =     10402., dx =      7.516, nx = 1024, xlog = no
+    y1 =         1., y2 =       256., dy =         1., ny =  256, ylog = no
+
+NOAO/IRAF V2.16.1 george@hea17 Fri 21:42:08 08-Jul-2016
+  Transform a0048.fits to tra0048.fits.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is spline3.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      2713., x2 =     10402., dx =      7.516, nx = 1024, xlog = no
+    y1 =         1., y2 =       256., dy =         1., ny =  256, ylog = no

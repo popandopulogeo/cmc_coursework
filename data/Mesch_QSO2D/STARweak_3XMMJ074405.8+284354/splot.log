@@ -1,0 +1,20 @@
+
+Mar  8  4:55 [trsp.ms.c.fits[*,1,1]]: 3XMMJ074405.8+284354
+avg:  8.880E-17  rms:  6.946E-17   snr:     1.28
+
+Mar 21 23:01 [trsp.ms.c.fits[*,1,1]]: 3XMMJ074405.8+284354
+avg:  5.411E-17  rms:  3.007E-17   snr:     1.80
+avg:  5.966E-17  rms:  2.640E-17   snr:     2.26
+
+Jul  8 21:50 [trsp.ms.fits[*,1,1]]: 3XMMJ074405.8+284354
+avg:      3.692  rms:      4.746   snr:     0.78
+
+Jul  8 21:51 [trsp1.ms.fits[*,1,1]]: 3XMMJ074405.8+284354
+avg:      3.829  rms:      5.552   snr:     0.69
+avg:      9.711  rms:      2.597   snr:     3.74
+avg:      8.805  rms:      6.083   snr:     1.45
+avg:      22.07  rms:      12.36   snr:     1.78
+avg:      15.74  rms:      8.954   snr:     1.76
+
+Jul  8 21:51 [trsp.ms.fits[*,1,1]]: 3XMMJ074405.8+284354
+avg:      16.04  rms:      5.766   snr:     2.78
